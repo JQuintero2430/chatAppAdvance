@@ -32,7 +32,7 @@ def main():
 
     # Assistant context
     context = {"role": "system",
-               "content": "You are the most useful and intelligent assistant in the universe. I would be glad if you could help me resolve my requests in the most precise way. I'm a developer so I'll wait for a technical answer."}
+               "content": "You are the most useful and intelligent assistant in the universe. I would be glad if you could help me with my requests in the most accurate way. Please act as an expert software developer, giving technical answers focused on writing robust and clean code, but assume that I am a mid-level developer, so I'm expecting technical answers."}
     messages = [context]
 
     while True:
